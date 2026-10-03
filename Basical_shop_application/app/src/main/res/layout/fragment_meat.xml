@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MeatFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/meat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Darált_hús 800" />
+
+            <Button
+                android:id="@+id/meat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Csirkecomb 1100" />
+
+            <Button
+                android:id="@+id/meat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Sertéskaraj 1300" />
+
+            <Button
+                android:id="@+id/meat4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Sertéskaraj 900" />
+
+            <Button
+                android:id="@+id/meat5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Baromfi_felvágott 400" />
+
+            <Button
+                android:id="@+id/meat6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Zsír 600" />
+
+            <Button
+                android:id="@+id/meat7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Párizsi 540" />
+
+            <Button
+                android:id="@+id/meat8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Csirkecomb 1200" />
+
+            <Button
+                android:id="@+id/meat9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Hússzelet 1600" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

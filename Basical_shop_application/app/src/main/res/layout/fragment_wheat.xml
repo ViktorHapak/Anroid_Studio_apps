@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.WheatFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/wheat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Fehérkenyér(1kg) 800" />
+
+            <Button
+                android:id="@+id/wheat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Zsömle 80" />
+
+            <Button
+                android:id="@+id/wheat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Kifli 110" />
+
+            <Button
+                android:id="@+id/wheat4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Kakaóscsiga 450" />
+
+            <Button
+                android:id="@+id/wheat5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Túrósbukta 500" />
+
+            <Button
+                android:id="@+id/wheat6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Pizzaszelet 600" />
+
+            <Button
+                android:id="@+id/wheat7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Lángos 550" />
+
+            <Button
+                android:id="@+id/wheat8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Perec 300" />
+
+            <Button
+                android:id="@+id/wheat9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Bagett 450" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

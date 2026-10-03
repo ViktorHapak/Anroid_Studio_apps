@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9F1EA"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/usernameField"
+        android:layout_width="216dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/white"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:hint="Felhasználónév"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="212dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Név"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameField" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="211dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="52dp"
+        android:background="@android:color/holo_orange_light"
+        android:backgroundTint="#FF6E00"
+        android:onClick="signUp"
+        android:text="Bejelentkezés"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameField" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

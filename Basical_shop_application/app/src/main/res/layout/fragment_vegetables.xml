@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.VegetablesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/vegetables1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Alma 500" />
+
+            <Button
+                android:id="@+id/vegetables2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Sárgarépa 400" />
+
+            <Button
+                android:id="@+id/vegetables3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Narancs 800" />
+
+            <Button
+                android:id="@+id/vegetables4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Banán 500" />
+
+            <Button
+                android:id="@+id/vegetables5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Uborka 550" />
+
+            <Button
+                android:id="@+id/vegetables6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Paradicsom 450" />
+
+            <Button
+                android:id="@+id/vegetables7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Görögdinnye 800" />
+
+            <Button
+                android:id="@+id/vegetables8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Őszibarack 600" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

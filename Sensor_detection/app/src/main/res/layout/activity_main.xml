@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/directionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="#0037FF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/m0_0"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m0_4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="80dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m0_2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m0_4"
+        app:layout_constraintStart_toEndOf="@+id/m0_0"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m0_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m0_2"
+        app:layout_constraintStart_toEndOf="@+id/m0_0"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m0_3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/m0_4"
+        app:layout_constraintStart_toEndOf="@+id/m0_2"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m1_0"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m0_0">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m1_4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="80dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m0_4">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m1_2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m1_4"
+        app:layout_constraintStart_toEndOf="@+id/m1_0"
+        app:layout_constraintTop_toBottomOf="@+id/m0_2">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m1_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m1_2"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/m1_0"
+        app:layout_constraintTop_toBottomOf="@+id/m0_1">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m1_3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m1_4"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/m1_2"
+        app:layout_constraintTop_toBottomOf="@+id/m0_3">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m2_0"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1_0">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m2_4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="80dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1_4">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m2_2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m2_4"
+        app:layout_constraintStart_toEndOf="@+id/m2_0"
+        app:layout_constraintTop_toBottomOf="@+id/m1_2">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m2_3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m2_4"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/m2_2"
+        app:layout_constraintTop_toBottomOf="@+id/m1_3">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m2_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m2_2"
+        app:layout_constraintStart_toEndOf="@+id/m2_0"
+        app:layout_constraintTop_toBottomOf="@+id/m1_1">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m3_0"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m2_0">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m3_4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="80dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m2_4">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m3_2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m3_4"
+        app:layout_constraintStart_toEndOf="@+id/m3_0"
+        app:layout_constraintTop_toBottomOf="@+id/m2_2">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m3_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m3_2"
+        app:layout_constraintStart_toEndOf="@+id/m3_0"
+        app:layout_constraintTop_toBottomOf="@+id/m2_1">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m3_3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m3_4"
+        app:layout_constraintStart_toEndOf="@+id/m3_2"
+        app:layout_constraintTop_toBottomOf="@+id/m2_3">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m4_0"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m3_0">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m4_4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="80dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m3_4">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m4_2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m4_4"
+        app:layout_constraintStart_toEndOf="@+id/m4_0"
+        app:layout_constraintTop_toBottomOf="@+id/m3_2">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m4_3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m4_4"
+        app:layout_constraintStart_toEndOf="@+id/m4_2"
+        app:layout_constraintTop_toBottomOf="@+id/m3_3">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m4_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/m4_2"
+        app:layout_constraintStart_toEndOf="@+id/m4_0"
+        app:layout_constraintTop_toBottomOf="@+id/m3_1">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SweetsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sweets1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Tejcsokoládé 520" />
+
+            <Button
+                android:id="@+id/sweets2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Fehércsokoládé 540" />
+
+            <Button
+                android:id="@+id/sweets3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Gaponapehely 1400" />
+
+            <Button
+                android:id="@+id/sweets4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Ostya 350" />
+
+            <Button
+                android:id="@+id/sweets5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Gumi_cukorka 600" />
+
+            <Button
+                android:id="@+id/sweets6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Omlóskeksz 430" />
+
+            <Button
+                android:id="@+id/sweets7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Croissante 470" />
+
+            <Button
+                android:id="@+id/sweets8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Sóspálcika 660" />
+
+            <Button
+                android:id="@+id/sweets9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addProduct"
+                android:text="Nyalóka 200" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
